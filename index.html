@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Diogo Alonso</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a
+        href="https://github.com/deogos"
+        aria-label="github"
+        class="link link--icon"
+      >
+        <i aria-hidden="true" class="fab fa-github"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/diogo-alonso/"
+        aria-label="linkedin"
+        class="link link--icon"
+      >
+        <i aria-hidden="true" class="fab fa-linkedin"></i>
+      </a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#formacao">Formação acadêmica</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projetos</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">linguagens e ferramentas</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contato</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Olá! Me chamo <span class="about__name">Diogo Alonso.</span></h1>
+        <h2 class="about__role"> Estudante de Engenharia de Software.</h2>
+        <p class="about__desc">
+          Sou estudante de Engenharia de Software na Universidade São Judas Tadeu.
+          Tenho interesse em estágio em TI, especialmente nas 
+          áreas de desenvolvimento web, cloud e devops.
+        </p>
+
+        <div class="about__contact center">
+          <a href="cv\CV.pdf">
+            <span class="btn btn--outline">currículo</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Education -->
+
+      <section id="formacao" class="section projects">
+        <h2 class="section__title">formação acadêmica</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Engenharia de Software</h3>
+            <p class="project__description">
+              Universidade São Judas <br>Campus Paulista <br> Noturno <br>(2023 - 2027)
+            </p>
+            
+          </div>
+
+          <div class="project">
+            <h3>Técnico em Jogos Digitais integrado com o ensino médio</h3>
+            <p class="project__description">
+              Etec Basilides de Godoy <BR></BR> (2020 - 2022)
+            </p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projetos</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Aplicativo Java Desktop </h3>
+            <p class="project__description">
+              Aplicativo Java Desktop para gerenciamento de pizzarias. 
+              A aplicação conta com CRUD (Create, Read, Update, Delete) na qual você pode gerenciar os funcionarios 
+              e as pizzas do cardápio. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">SQLite</li>
+            </ul>
+
+            <a
+              href="https://github.com/MrGold9/A3dePSC"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Arcanic</h3>
+            <p class="project__description">
+              Arcanic é um jogo desenvolvido como Trabalho de Conclusão de Curso (TCC). Feito em Unity e programado em C#. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Blender</li>
+            </ul>
+
+            <a
+              href="https://github.com/DnlMcn/Arcanic"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Calculadora</h3>
+            <p class="project__description">
+              Calculadora desenvolvida em HTML, CSS E JS.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/deogos/calculator"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://deogos.github.io/calculator/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">linguagens e ferramentas</h2>
+        <ul class="skills__list">
+          <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+          <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+          <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
+          <a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" /></a>  
+          <a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
+          <a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
+          <a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
+          <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
+          <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
+          <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" /></a>  
+          <a href="https://www.blender.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/blender_community_badge_white.svg" alt="Blender" height="50" /></a>  
+          <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/powershell.png" alt="PowerShell" height="50" /></a>  
+          <a href="https://www.android.com/intl/en_in/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg" alt="Android" height="50" /></a>  
+          <a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contato</h2>
+        <a href="mailto:diogoalonso05@gmail.com">
+          <span class="btn btn--outline">Me envie um email!</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
