@@ -1,13 +1,11 @@
-# Cleanfolio Minimal
+# Portfolio
 
-A portfolio template built with HTML, CSS, and JavaScript.
+Portfolio for my cloud project
 
-## Preview
 
-[![imgur](https://i.imgur.com/5z7cvMz.gif)](https://rajshekhar26.github.io/cleanfolio-minimal)
+## Acknowledgement
 
-[Live Demo](https://rajshekhar26.github.io/cleanfolio-minimal)
-
+Template by [Raj Shekhar](https://github.com/rajshekhar26/cleanfolio-minimal)
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
