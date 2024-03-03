@@ -60,4 +60,21 @@ const scrollUp = () => {
 	}
 }
 
+async function getNumberFromAPI() {
+    const url = 'https://ez3exioca4j3x7ql7udqfqihnm0aupzl.lambda-url.us-east-1.on.aws/';
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        const viewsDiv = document.querySelector('.views');
+        viewsDiv.innerHTML = `Views: ${data}`;
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+getNumberFromAPI();
+
 document.addEventListener('scroll', scrollUp)
