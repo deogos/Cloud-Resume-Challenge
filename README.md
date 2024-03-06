@@ -38,9 +38,9 @@ Utilizando o serviço CloudFront, criei uma nova distribuição. É necessário 
 
 A parte mais desafiadora para mim foi a configuração inicial do domínio. Inicialmente, procurei uma solução mais acessível e encontrei o pacote para estudantes do GitHub, que oferecia um domínio gratuito através do namecheap. 
 
-Registrei o domínio deogo.me através desse serviço. Em seguida, utilizei o serviço Route 53 da AWS para criar uma zona hospedada, onde inseri meu domínio e configurei os servidores de nomes no namecheap. Além disso, solicitei um certificado SSL/TLS público através do ACM (Amazon Certificate Manager).
+Registrei o domínio deogo.me através desse serviço. Em seguida, utilizei o serviço Route 53 da AWS para criar uma hosted zone, onde inseri meu domínio e configurei os servidores de nomes no namecheap. Além disso, solicitei um certificado SSL/TLS público através do ACM (Amazon Certificate Manager).
 
-No entanto, errei ao cadastra o endereço errado no namecheap, digitando deogo.me em vez de deogos.me (que é meu usuário do GitHub). Tive que contatar o suporte do namecheap para corrigir o erro, o que demandou tempo e esforço. Após a correção, foi necessário reconfigurar todos os detalhes no Route 53. 
+No entanto, errei ao cadastrar o endereço errado no namecheap, digitando deogo.me em vez de deogos.me (que é meu usuário do GitHub). Tive que contatar o suporte do namecheap para corrigir o erro, o que demandou tempo e esforço. Após a correção, foi necessário reconfigurar todos os detalhes no Route 53. 
 
 5. Database
 
@@ -59,7 +59,7 @@ Desenvolvi uma função Lambda que se conecta a uma tabela no DynamoDB. Sempre q
 
 8.  Infrastructure as Code
 
-Deveria ter começado com esse passo, pois para importar os recursos já existentes no Terraform é muito complicado, e não funciona direito. Farei esse projeto novamente, mas começando por essa parte.
+Deveria ter começado com esse passo, pois para importar os recursos já existentes no Terraform é muito complicado, e não funciona direito. Quando for começar outros projetos começarei primeiramente por essa parte.
 
 13. Source Control / CICD
 
